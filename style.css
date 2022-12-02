@@ -1,8 +1,8 @@
 :root {
     --clr-primary-100: hsl(0, 0%, 100%);
     --clr-primary-200: hsl(212, 45%, 89%);
-    --clr-primay-500: hsl(220, 15%, 55%);
-    --clr-primay-900: hsl(218, 44%, 22%);
+    --clr-primary-500: hsl(220, 15%, 55%);
+    --clr-primary-900: hsl(218, 44%, 22%);
 
     --ff-base: 'Outfit', sans-serif;
 
@@ -84,7 +84,7 @@ body {
     font-family: var(--ff-base);
     font-size: 0.935rem;
     background-color: var(--clr-primary-200);
-    color: var(--clr-primay-500);
+    color: var(--clr-primary-500);
     display: grid;
     place-content: center;
 }
@@ -99,8 +99,8 @@ img {
     padding: 1rem;
     max-width: 320px;
     background-color: var(--clr-primary-100);
-    border-radius: 0.5rem;
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.10), 0 10px 10px rgba(0, 0, 0, 0.10);
+    border-radius: 1.25rem;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.02), 0 10px 10px rgba(0, 0, 0, 0.05);
 }
 
 .payment__content {
@@ -111,5 +111,10 @@ img {
 
 .payment__title {
     font-weight: var(--ff-bold);
-    color: var(--clr-primay-900);
+    color: var(--clr-primary-900);
+}
+
+.payment__cta {
+  padding: 0.5rem;
+  color: var(--clr-primary-500);
 }
